@@ -4,13 +4,17 @@ Projeto de análise de dados usando Python
 # 🧠 Projeto de Análise e Segmentação de Dados.
 
 Este projeto tem como objetivo aplicar uma abordagem completa de ciência de dados, passando pelas etapas de **limpeza de dados**, **análise descritiva** e **clusterização**, com foco em determinar
-**[ O perfil de cliente e seu comportamento.]**.
+**O perfil de cliente e seu comportamento.**.
 
 ---
 
 ## 🗂 Estrutura do Projeto
 
-Suponhamos que o dono de uma rede de supermercados procurou nossos serviços para melhorar o seu negócio. Conversando com o nosso cliente, que realiza suas vendas por catálogos, em lojas físicas e online, de produtos como proteínas, frutas, vinhos, queremos responder às seguintes perguntas:
+Suponhamos que o dono de uma rede de supermercados procurou nossos serviços para melhorar o seu negócio. 
+Em uma conversa com nosso cliente, que vende produtos como proteínas, frutas e vinhos através de catálogos, lojas físicas e online, 
+nosso objetivo é determinar o perfil dos clientes do supermercado e identificar qual campanha de marketing seria mais efetiva para potencializar as vendas.
+
+Perguntas que precisam ser respondidas:
 
 1.Média da renda dos clientes por grupos de idade e status civil?
 2.Média de gastos dos clientes por grupos de idade ?
@@ -28,25 +32,25 @@ Suponhamos que o dono de uma rede de supermercados procurou nossos serviços par
 |-------|-----------|
 | **1. Limpeza e tratamento dos dados** | Tratamento de dados ausentes e outliers, padronização de colunas e criação de variáveis. 
 | **2. Análise Descritiva** | Exploração de variáveis, geração de gráficos e identificação de perfil. |
-| **3. Clusterização** | Aplicação dos métodos K-means e GMM para segmentação dos dados. |
+| **3. Clusterização** | Aplicação dos métodos K-means e GMM para segmentação de mercado. |
 
 ---
 
 ## 📊 Tecnologias Utilizadas
 
-- Python (Pandas,NumPy,Matplotlib,Seaborn,Plotly,LabelEncoder,PCA, Kmens,GaussianMixture, PowerTransformer, StandarScaler)
+- Python (Pandas • NumPy • Matplotl • Seaborn • PlotlyExpress • Sklear • LabelEncoder)
 - Jupyter Notebook
 -  Kaggle (🔗 dataset) 
-https://www.kaggle.com/datasets/whenamancodes/customer-personality-analysis?resource=download, Agradecimentos: O. Parr-Rud. Análise de Negócios com SAS Enterprise Guide e SAS Enterprise Miner. SAS Institute, 2014.
+https://www.kaggle.com/datasets/whenamancodes/customer-personality-analysis?resource=download.
+Agradecimentos: O. Parr-Rud. Análise de Negócios com SAS Enterprise Guide e SAS Enterprise Miner. SAS Institute, 2014.
 
 ---
 
 ## 🚀 Como Executar
 
-git clone https://github.com/gspatri/Analisar_Campanha_de_Marketing_.git
-
 Acesse a pasta do projeto e abra os notebooks em ordem de etapas
 
+Pasta: https://github.com/gspatri/Analisar_Campanha_de_Marketing_.git
 1º Limpeza_marketing_campaign.ipynb
 2º Analise_marketing_campaign.ipynb
 3º Kmeans_analise.ipynb
@@ -57,8 +61,8 @@ Acesse a pasta do projeto e abra os notebooks em ordem de etapas
 - Identificação de perfis relevantes via gráficos.
 - Grupos identificados pelos métodos de clusterização. 
 
-📎 Link para apresentação online
-🔗 Veja este projeto no meu portfólio Notion
+🔗 Veja este projeto e outros no meu portfólio Notion:
+https://parallel-girl-dda.notion.site/ebd/1f8a3ed5fc0d80e18291e55407aa20fc
 
 # 🙋🏽‍♀️Sobre mim
 Sou uma profissional em transição de carreira, em busca de oportunidades na área de ciência de dados.
